@@ -36,7 +36,7 @@ Now you can add bundles by composer
 
 Example:
 ```
-cd ./my_project_name & composer require profiler
+cd /var/www/html/my_project_name & composer require profiler --dev
 ```
 ### Virual Hosts
 
@@ -83,7 +83,7 @@ Example:
 
 ### Access
 
-#### Webserver: `http://localhost`
+#### Webserver: `http://my_project_name`
 
 #### phpMyAdmin: `http://localhost:8080/`
 ##### username: `db_user`

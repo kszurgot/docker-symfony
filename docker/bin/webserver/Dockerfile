@@ -55,15 +55,6 @@ RUN a2enmod rewrite headers
 # Add current user to container
 RUN useradd -m -u ${UID} ${USER}
 
-# Use current user
-USER ${USER}
-
-# Create symfony project by composer
-RUN composer create-project symfony/skeleton ${PROJECT}
-
-# Use root user
-USER root
-
 # Cleanup
 RUN rm -rf /usr/src/*
 
