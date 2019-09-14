@@ -36,7 +36,7 @@ Now you can add bundles by composer
 
 Example:
 ```
-cd /var/www/html/my_project_name & composer require profiler --dev
+cd /var/www/html/my_project_name && composer require profiler --dev
 ```
 ### Virual Hosts
 
