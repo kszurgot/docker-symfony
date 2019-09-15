@@ -45,8 +45,7 @@ After creating project you can configure vHost in `docker/config/vhosts/my_proje
 Example:
 ```
 <VirtualHost *:80>
-    ServerName domain.tld
-    ServerAlias www.domain.tld
+    ServerName my_server_name
 
     DocumentRoot /var/www/html/my_project_name/public
     DirectoryIndex /index.php
@@ -83,7 +82,7 @@ Example:
 
 ### Access
 
-#### Webserver: `http://my_project_name`
+#### Webserver: `http://my_server_name`
 
 #### phpMyAdmin: `http://localhost:8080/`
 ##### username: `db_user`
